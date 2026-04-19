@@ -1,0 +1,62 @@
+🔹 Step 1: Download Flutter SDK
+Go to 👉 https://flutter.dev/docs/get-started/install/windows
+Download Flutter SDK (zip file)
+Extract it to:
+C:\flutter
+🔹 Step 2: Set Environment Path
+Press Windows + S → search "Environment Variables"
+Click Edit system environment variables
+Click Environment Variables
+In System Variables → find Path → click Edit
+Click New and add:
+C:\flutter\bin
+Click OK → OK → OK
+🔹 Step 3: Check Installation
+
+Open Command Prompt (cmd):
+
+flutter doctor
+
+👉 It will show missing components (Android Studio, etc.)
+
+🔹 Step 4: Install Android Studio
+Download from 👉 https://developer.android.com/studio
+Install normally
+Open Android Studio
+🔹 Step 5: Install Android SDK
+
+Inside Android Studio:
+
+Click More Actions → SDK Manager
+Install:
+Android SDK
+Platform Tools
+Emulator
+🔹 Step 6: Accept Licenses
+
+In CMD:
+
+flutter doctor --android-licenses
+
+Press y for all
+
+🔹 Step 7: Verify Setup
+flutter doctor
+
+👉 All should show ✔ (green ticks)
+
+🔹 Step 8: Create Flutter Project
+flutter create myapp
+cd myapp
+🔹 Step 9: Run App
+flutter run
+
+👉 It will open emulator or browser
+
+✅ 📌 Output
+Flutter installed successfully
+Android Studio configured
+First app runs successfully
+✅ 🧠 Conclusion (Write in Exam)
+
+👉 Successfully installed Flutter SDK and configured Android Studio on Windows. The environment is ready for developing Flutter applications.
