@@ -1,0 +1,50 @@
+🔹 Step 1: Open VS Code
+Open VS Code
+Click File → Open Folder
+Select your Flutter project folder
+(or create new below 👇)
+🔹 Step 2: Create Project (if not created)
+
+👉 In VS Code Terminal (top menu → Terminal → New Terminal)
+
+flutter create car_app
+cd car_app
+
+👉 Then:
+
+code .
+🔹 Step 3: Open main.dart
+
+In left panel:
+
+lib → main.dart
+
+👉 Delete default code
+
+👉 Paste your experiment code
+
+🔹 Step 4: Connect Device
+
+At bottom right in VS Code:
+
+Select Chrome (easy)
+OR
+Select Android Emulator
+🔹 Step 5: Run App
+
+👉 In VS Code terminal:
+
+flutter run
+
+OR
+
+👉 Click Run ▶ button (top right)
+
+✅ 📱 Output You Will See
+App title: Car App
+Sections:
+Sedan
+SUV
+Hatchback
+Colored headings + descriptions
+Scrollable screen
